@@ -15,7 +15,7 @@ public class FullBookingAPITest {
     private static final String BASE_URL = "https://restful-booker.herokuapp.com";
 
     @Test
-    public void fullBookingCrudTest() {
+    public void fullBookingCRUDTest() {
         Booking booking = BookingDataFactory.createDefaultBooking();
 
         Response createResponse = createBooking(booking);
