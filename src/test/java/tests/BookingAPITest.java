@@ -10,7 +10,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.notNullValue;
 
-public class FullBookingAPITest {
+public class BookingAPITest {
 
     private static final String BASE_URL = "https://restful-booker.herokuapp.com";
 
